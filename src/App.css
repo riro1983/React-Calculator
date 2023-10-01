@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+.calculator-container{
+  width: 300px;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: grey;
+  border-radius: 10px;
+}
+.calculator-display{
+  font-size: 30px;
+  background-color: #282c34;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: right;
+}
+.calculator-buttons{
+  display: grid;
+  grid-template-columns: repeat(4,3fr);
+  gap: 10px;
+}
